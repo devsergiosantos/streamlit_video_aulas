@@ -60,9 +60,18 @@ def display_videos(level):
     # Lista de vídeos a serem exibidos por nível
     videos_by_level = {
         1: [
-            {"id": "video1", "title": "Vídeo Nível 1 - Básico", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
-            {"id": "video2", "title": "Vídeo Nível 1 - Fundamentos", "url": "https://www.youtube.com/watch?v=abc123example"}
+            {"id": "video1", "title": "01 - Conhecendo o Intrumento", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+            {"id": "video2", "title": "02 - Afinação e Fundamentos", "url": "https://www.youtube.com/watch?v=abc123example"},
+             {"id": "video3", "title": "03 - Primeira Música", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+            {"id": "video4", "title": "04 - Exércícios mão direita ", "url": "https://www.youtube.com/watch?v=abc123example"},
+             {"id": "video5", "title": "05 -Segunda Música ", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+            {"id": "video6", "title": "06 - Terceira Música", "url": "https://www.youtube.com/watch?v=abc123example"},
+             {"id": "video7", "title": "07- Exercícios mão esquerda", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+            {"id": "video8", "title": "08- Quarta Música", "url": "https://www.youtube.com/watch?v=abc123example"},
+             {"id": "video9", "title": "09 - Quinta Música", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+            {"id": "video10", "title": "10- Sexta Música  - Fundamentos", "url": "https://www.youtube.com/watch?v=abc123example"},
         ],
+       
         2: [
             {"id": "video3", "title": "Vídeo Nível 2 - Intermediário", "url": "https://www.youtube.com/watch?v=def456example"},
             {"id": "video4", "title": "Vídeo Nível 2 - Técnicas Avançadas", "url": "https://www.youtube.com/watch?v=ghi789example"}
