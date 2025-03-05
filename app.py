@@ -60,10 +60,10 @@ def display_videos(level):
     # Lista de vídeos a serem exibidos por nível
     videos_by_level = {
         1: [
-            {"id": "video1", "title": "01 - Conhecendo o Intrumento", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
-            {"id": "video2", "title": "02 - Afinação e Fundamentos", "url": "https://www.youtube.com/watch?v=abc123example"},
-             {"id": "video3", "title": "03 - Primeira Música", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
-            {"id": "video4", "title": "04 - Exércícios mão direita ", "url": "https://www.youtube.com/watch?v=abc123example"},
+            {"id": "video1", "title": "01 - Conhecendo o Intrumento", "url": "https://www.youtube.com/watch?v=KYGtdSuTiAA"},
+            {"id": "video2", "title": "02 - Afinação e Fundamentos", "url": "https://www.youtube.com/watch?v=HTDs9kDLhKc"},
+             {"id": "video3", "title": "03 - Primeira Música", "url": "https://www.youtube.com/watch?v=liC49Dol6OY"},
+            {"id": "video4", "title": "04 - Exércícios mão direita ", "url": "https://www.youtube.com/watch?v=DoXEI1mAbu8"},
              {"id": "video5", "title": "05 -Segunda Música ", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
             {"id": "video6", "title": "06 - Terceira Música", "url": "https://www.youtube.com/watch?v=abc123example"},
              {"id": "video7", "title": "07- Exercícios mão esquerda", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
