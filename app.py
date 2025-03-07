@@ -60,7 +60,7 @@ def display_videos(level):
     # Lista de vídeos a serem exibidos por nível
     videos_by_level = {
         1: [
-            {"id": "video1", "title": "01 - Faz Chover ", "url": "https://www.youtube.com/watch?v=KN5uSkswt4g"},
+            {"id": "video1", "title": "01 - Faz Chover - Fernandinho", "url": "https://www.youtube.com/watch?v=KN5uSkswt4g"},
             {"id": "video2", "title": "02 - Afinação e Fundamentos", "url": "https://www.youtube.com/watch?v=HTDs9kDLhKc"},
              {"id": "video3", "title": "03 - Primeira Música", "url": "https://www.youtube.com/watch?v=liC49Dol6OY"},
             {"id": "video4", "title": "04 - Exércícios mão direita ", "url": "https://www.youtube.com/watch?v=DoXEI1mAbu8"},
