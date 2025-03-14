@@ -4,6 +4,7 @@ import bcrypt
 from PIL import Image
 import io
 import datetime
+import streamlit.components.v1 as components
 
 # Configuração do MongoDB
 client = MongoClient('mongodb+srv://analistasergiosantos:7JytXMbp1iWzecxu@cluster0.u6arcnr.mongodb.net/')
@@ -131,8 +132,11 @@ def main():
     if "logged_in" not in st.session_state:
         st.session_state["logged_in"] = False
         st.session_state["username"] = ""
+        
+    components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=400, height=400)
 
-    st.title("Login e Cadastro")
+    st.title("Sérgio Santos")
+    st.write("Bem-vindo ao portal de cursos e treinamentos!")
 
     # Mostrar nome do usuário logado na barra lateral
     if st.session_state["logged_in"]:
