@@ -147,7 +147,7 @@ st.write(
     **Bem-vindo à família da Fanfara!** 🎵"""  
 )
 
-    st.title("Sérgio Santos")
+    
     st.write("Bem-vindo ao portal de cursos e treinamentos!")
 
     # Mostrar nome do usuário logado na barra lateral
