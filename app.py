@@ -162,7 +162,7 @@ def main():
         st.sidebar.write("Você não está logado")
 
     # Menu de navegação lateral
-    menu = st.sidebar.selectbox("Menu", ["Login", "Cadastro", "Captura de Foto", "Vídeos"])
+    menu = st.sidebar.selectbox("Menu", ["Login", "Cadastro", "Vídeos"])
 
     if menu == "Cadastro":
         st.subheader("Criar Conta")
