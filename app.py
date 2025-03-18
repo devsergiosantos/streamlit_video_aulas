@@ -133,7 +133,7 @@ def main():
     if "logged_in" not in st.session_state:
         st.session_state["logged_in"] = False
         st.session_state["username"] = ""
-        st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
+        st.title("🎶 Bem-vindo ao Curso de Música! 🎺🥁")  
 
    
     components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=700, height=400)
