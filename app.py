@@ -148,7 +148,7 @@ st.write(
 )
 
     
-    st.write("Bem-vindo ao portal de cursos e treinamentos!")
+  
 
     # Mostrar nome do usuário logado na barra lateral
     if st.session_state["logged_in"]:
