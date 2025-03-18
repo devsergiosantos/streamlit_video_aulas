@@ -137,7 +137,7 @@ def main():
 
    
     components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=700, height=400)
-     st.write(  
+    st.write(  
     """É com grande alegria que recebemos você nesta jornada musical!  
     Aqui, você terá a oportunidade de aprender, evoluir e fazer parte de um grupo que valoriza a disciplina,  
     a harmonia e o trabalho em equipe.  
