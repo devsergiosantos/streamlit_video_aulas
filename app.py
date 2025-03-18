@@ -7,22 +7,6 @@ import datetime
 import streamlit.components.v1 as components
 
 
-#Boas vindas
- st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
-
-st.write(  
-    """É com grande alegria que recebemos você nesta jornada musical!  
-    Aqui, você terá a oportunidade de aprender, evoluir e fazer parte de um grupo que valoriza a disciplina,  
-    a harmonia e o trabalho em equipe.  
-
-    Prepare-se para explorar novos sons, aprimorar suas habilidades e viver momentos inesquecíveis.  
-    Que a música seja nossa conexão e inspiração! 🎼  
-
-    **Bem-vindo à família da Fanfara!** 🎵"""  
-)
-
-
-
 # Configuração do MongoDB
 client = MongoClient('mongodb+srv://analistasergiosantos:7JytXMbp1iWzecxu@cluster0.u6arcnr.mongodb.net/')
 db = client['Clientes']
