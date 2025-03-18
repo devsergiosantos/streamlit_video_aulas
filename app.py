@@ -134,6 +134,18 @@ def main():
         st.session_state["username"] = ""
         
     components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=400, height=400)
+    st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
+
+st.write(  
+    """É com grande alegria que recebemos você nesta jornada musical!  
+    Aqui, você terá a oportunidade de aprender, evoluir e fazer parte de um grupo que valoriza a disciplina,  
+    a harmonia e o trabalho em equipe.  
+
+    Prepare-se para explorar novos sons, aprimorar suas habilidades e viver momentos inesquecíveis.  
+    Que a música seja nossa conexão e inspiração! 🎼  
+
+    **Bem-vindo à família da Fanfara!** 🎵"""  
+)
 
     st.title("Sérgio Santos")
     st.write("Bem-vindo ao portal de cursos e treinamentos!")
@@ -220,3 +232,23 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+st.title("📞 Contatos")  
+
+st.write("Entre em contato conosco para mais informações sobre o curso de música (Fanfara):")  
+
+st.markdown("""  
+📧 **E-mail:** contato@fanfara.com.br  
+📱 **WhatsApp:** +55 (77) 9.9921-1063  
+📍 **Endereço:** Rua da Música, 123 - Barra do Choça, Ba. 
+🌐 **Site:** [www.fanfara.com.br](https://youtube.com/live/CIVx4wHcEZA)  
+""")  
+
+st.write("Nos siga nas redes sociais para ficar por dentro das novidades!")  
+
+st.markdown("""  
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/fanfara)  
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/fanfara)  
+""") 
