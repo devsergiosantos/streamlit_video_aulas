@@ -133,7 +133,7 @@ def main():
     if "logged_in" not in st.session_state:
         st.session_state["logged_in"] = False
         st.session_state["username"] = ""
-         st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
+        st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
 
     st.write(  
     """É com grande alegria que recebemos você nesta jornada musical!  
