@@ -135,7 +135,7 @@ def main():
         st.session_state["username"] = ""
          st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
 
-st.write(  
+    st.write(  
     """É com grande alegria que recebemos você nesta jornada musical!  
     Aqui, você terá a oportunidade de aprender, evoluir e fazer parte de um grupo que valoriza a disciplina,  
     a harmonia e o trabalho em equipe.  
