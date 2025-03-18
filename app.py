@@ -232,25 +232,6 @@ def main():
             display_videos(nivel)
 
 
-st.title("📞 Contatos")  
-
-st.write("Entre em contato conosco para mais informações sobre o curso de música (Fanfara):")  
-
-st.markdown("""  
-📧 **E-mail:** contato@fanfara.com.br  
-📱 **WhatsApp:** +55 99 99999-9999  
-📍 **Endereço:** Rua da Música, 123 - Cidade, Estado  
-🌐 **Site:** [www.fanfara.com.br](http://www.fanfara.com.br)  
-""")  
-
-st.write("Nos siga nas redes sociais para ficar por dentro das novidades!")  
-
-st.markdown("""  
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/fanfara)  
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/fanfara)  
-""") 
-
-
 if __name__ == "__main__":
     main()
 
