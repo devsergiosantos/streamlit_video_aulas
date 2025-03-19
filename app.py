@@ -93,8 +93,7 @@ def display_videos(level):
         ]
     }
 
-st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
-   
+  
 
     # Exibir vídeos em duas colunas
     col1, col2 = st.columns(2)
@@ -138,7 +137,7 @@ def main():
         st.session_state["logged_in"] = False
         st.session_state["username"] = ""
         st.title("🎶 Bem-vindo ao Curso de Música! 🎺🥁")  
-
+   
    
     components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=700, height=400)
     st.write(  
@@ -151,6 +150,7 @@ def main():
 
     **Bem-vindo à família !** 🎵"""  
 )
+    
 
 
     # Mostrar nome do usuário logado na barra lateral
@@ -162,7 +162,7 @@ def main():
             st.success("Você foi deslogado com sucesso!")
     else:
         st.sidebar.write("Você não está logado")
-
+    
 
 
     
@@ -199,7 +199,7 @@ def main():
 
                 # Captura de foto usando a webcam
                 camera_image = st.camera_input("Tire uma foto")
-
+               
                 if camera_image:
                     image_bytes = io.BytesIO(camera_image.read())
                     show_image(image_bytes)
@@ -235,12 +235,35 @@ def main():
             # Escolher o nível de vídeos
             nivel = st.selectbox("Escolha o Nível", [1, 2, 3, 4, 5])
             display_videos(nivel)
+            #st.link_button("Acesse aqui o **MATERIAL DE APOIO**", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
+        st.markdown(
+    """
+    <a href="https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing" target="_blank" style="text-decoration: none;">
+        <button style="
+            display: flex;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;">
+            📂 Acesse aqui o material de apoio
+        </button>
+        
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+   
 
 
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
