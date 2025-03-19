@@ -163,8 +163,7 @@ def main():
         st.sidebar.write("Você não está logado")
 
 
-st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
-   
+
     
     # Menu de navegação lateral
     menu = st.sidebar.selectbox("Menu", ["Login", "Cadastro", "Vídeos"])
