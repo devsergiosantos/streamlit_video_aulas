@@ -63,8 +63,7 @@ def display_videos(level):
     videos_by_level = {
         1: [
             {"id": "video1", "title": "01 - Faz Chover - Fernandinho", "url": "https://www.youtube.com/watch?v=KN5uSkswt4g"},
-            st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
-   
+          
             {"id": "video2", "title": "02 - Afinação e Fundamentos", "url": "https://www.youtube.com/watch?v=HTDs9kDLhKc"},
              {"id": "video3", "title": "03 - Primeira Música", "url": "https://www.youtube.com/watch?v=liC49Dol6OY"},
             {"id": "video4", "title": "04 - Exércícios mão direita ", "url": "https://www.youtube.com/watch?v=DoXEI1mAbu8"},
@@ -94,8 +93,8 @@ def display_videos(level):
         ]
     }
 
-
-
+st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
+   
 
     # Exibir vídeos em duas colunas
     col1, col2 = st.columns(2)
