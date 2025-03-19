@@ -151,8 +151,7 @@ def main():
     **Bem-vindo à família !** 🎵"""  
 )
 
-st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
-   
+
     # Mostrar nome do usuário logado na barra lateral
     if st.session_state["logged_in"]:
         st.sidebar.write(f"Usuário logado: {st.session_state['username']}")
@@ -233,6 +232,9 @@ st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZ
             nivel = st.selectbox("Escolha o Nível", [1, 2, 3, 4, 5])
             display_videos(nivel)
 
+
+st.link_button("Material de apoio", "https://drive.google.com/drive/folders/1iIZMzs1S9trDajec_u-Jz9mFv1sNF_s6?usp=sharing")
+   
 
 if __name__ == "__main__":
     main()
