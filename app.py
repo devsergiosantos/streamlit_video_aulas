@@ -24,7 +24,7 @@ color_options = ["#FF5733", "#33FF57", "#3357FF", "#F3FF33", "#FF33F6", "#33FFF3
 color = st.color_picker("Selecione a cor da página:", "#ffffff")
 
 # Botão para trocar a cor aleatoriamente
-if st.button("Trocar Cor Aleatória"):
+if st.button("Trocar Cor da Página"):
     color = random.choice(color_options)
 
 # Aplicar a cor de fundo usando CSS
