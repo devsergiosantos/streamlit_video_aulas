@@ -13,6 +13,37 @@ db = client['Clientes']
 usuarios = db['Barbearia']
 comentarios = db['Comentarios']  # Nova coleção para comentários
 
+import random
+
+# Título do aplicativo
+st.title("🎨 Escolha a cor da página")
+
+# Lista de cores aleatórias
+color_options = ["#FF5733", "#33FF57", "#3357FF", "#F3FF33", "#FF33F6", "#33FFF3"]
+
+# Color picker para selecionar a cor de fundo
+color = st.color_picker("Selecione a cor da página:", "#ffffff")
+
+# Botão para trocar a cor aleatoriamente
+if st.button("Trocar Cor Aleatória"):
+    color = random.choice(color_options)
+
+# Aplicar a cor de fundo usando CSS
+def set_background_color(color):
+    st.markdown(
+        f"""
+        <style>
+            .stApp {{
+                background-color: {color};
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+set_background_color(color)
+
+
 
 # Funções auxiliares
 def register_user(username, password):
