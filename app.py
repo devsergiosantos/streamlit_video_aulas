@@ -64,8 +64,8 @@ def display_videos(level):
         1: [
             {"id": "video1", "title": "01 - Faz Chover - Fernandinho", "url": "https://www.youtube.com/watch?v=KN5uSkswt4g"},
           
-            {"id": "video2", "title": "Exercicio Palhetada e Digitação", "url": "https://www.youtube.com/watch?v=0DUaKmUXnSY"},
-             {"id": "video3", "title": "Palhetada alternada e Digitação", "url": "https://www.youtube.com/watch?v=kQCRZsaPjhQ"},
+            {"id": "video2", "title": " 02 - Exercicio Palhetada e Digitação", "url": "https://www.youtube.com/watch?v=0DUaKmUXnSY"},
+             {"id": "video3", "title": " 03 - Palhetada alternada e Digitação", "url": "https://www.youtube.com/watch?v=kQCRZsaPjhQ"},
             {"id": "video4", "title": "04 - Exércícios mão direita ", "url": "https://www.youtube.com/watch?v=DoXEI1mAbu8"},
              {"id": "video5", "title": "05 -Segunda Música ", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
             {"id": "video6", "title": "06 - Terceira Música", "url": "https://www.youtube.com/watch?v=abc123example"},
