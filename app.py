@@ -16,7 +16,6 @@ comentarios = db['Comentarios']  # Nova coleção para comentários
 import random
 
 # Título do aplicativo
-st.title("🎨 Escolha a cor da página")
 
 # Lista de cores aleatórias
 color_options = ["#FF5733", "#33FF57", "#3357FF", "#F3FF33", "#FF33F6", "#33FFF3"]
